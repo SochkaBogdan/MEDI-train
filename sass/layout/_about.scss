@@ -1,0 +1,126 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.innovation {
+  display: flex;
+  flex-direction: column;
+  background: var(--secondary-color);
+
+  margin-top: 80px;
+  width: 526px;
+  // .innovation__content
+
+  &__content {
+    padding: 40px;
+  }
+
+  // .innovation__tittle
+
+  &__tittle {
+    width: 125px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    background-color: var(--accent-color);
+  }
+
+  // .innovation__text
+
+  &__text {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    color: #ffffff;
+    margin-bottom: 25px;
+  }
+
+  // .innovation__btn
+
+  &__btn {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 45px;
+  }
+
+  // .innovation__img
+  &__img {
+    width: 100%;
+  }
+}
+
+.statistic {
+  width: 636px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 115px;
+
+  // .statistic__tittle
+
+  &__tittle {
+    width: 186px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+
+    padding: 10px 15px;
+    // margin-bottom: 30px;
+    background-color: var(--accent-color);
+  }
+  // .statistic__box
+
+  &__box {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    // width: 214px;
+    // height: 72px;
+  }
+
+  // .statistic__numb
+
+  &__numb {
+    color: rgb(0 0 0 / 30%);
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 150%;
+    margin-right: 20px;
+  }
+  // .statistic__numb--focus
+
+  &__numb--focus {
+    font-size: 96px;
+    color: var(--secondary-color);
+  }
+
+  // .statistic__text
+
+  &__text {
+    width: 144px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgb(0 0 0 / 30%);
+  }
+  // .statistic__text--focus
+
+  &__text--focus {
+    font-size: 28px;
+    color: #000;
+    width: 319px;
+  }
+}

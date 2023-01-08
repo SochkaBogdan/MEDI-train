@@ -1,12 +1,26 @@
 // RESET
+
 @import "./base/container";
 @import "./base/reset";
+
 // UTILS
+
 @import "./utils/fonts";
 @import "./utils/variables";
+@import "./utils/arrow";
+
 // LAYOUT
+
 @import "./layout/header";
+@import "./layout/about";
+@import "./layout/actual";
+@import "./layout/services";
+@import "./layout/work";
+@import "./layout/news";
+@import "./layout/hero";
+
 // COMPONENTS
+
 @import "./components/logo";
 @import "./components/button";
-@import "./components/hero";
+@import "./components/nav-box";
